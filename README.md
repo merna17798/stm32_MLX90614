@@ -9,8 +9,8 @@
 ## We tried to connect mlx90614 with stm32 but we face some issues. we try to debug our code and found ourselves stuck at HAL_Init(). we try to but counter to further clarification and found our counter only increments once then stuck. there are too little resources for dealing with that sensor so if you know how to solve our problem we will be glad. 
 > Code in t/Core/Src/main.c (you will check main function). you will also need to check t/drivers/Src/stm32f1xx_hal.c for HAL_Init function.
 ## Where we stuck
-![1](imgs/1.jpg)
+![1](imgs/1.JPG)
 ## brief of HAL_Init()
-![2](imgs/2.jpg)
+![2](imgs/2.JPG)
 ## HAL_Init() 
-![3](imgs/3.jpg)
+![3](imgs/3.JPG)
